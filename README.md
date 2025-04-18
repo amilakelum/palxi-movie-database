@@ -33,7 +33,7 @@ A modern movie and TV show database built with Next.js, React, and TypeScript, u
 1. Clone the repository:
 
 \`\`\`bash
-git clone https://github.com/yourusername/palxi-movie-database.git
+git clone https://github.com/amilakelum/palxi-movie-database.git
 cd palxi-movie-database
 \`\`\`
 
@@ -41,7 +41,9 @@ cd palxi-movie-database
 
 \`\`\`bash
 npm install
+
 # or
+
 yarn install
 \`\`\`
 
@@ -59,7 +61,9 @@ Run the development server:
 
 \`\`\`bash
 npm run dev
+
 # or
+
 yarn dev
 \`\`\`
 
@@ -71,7 +75,9 @@ Build the application for production:
 
 \`\`\`bash
 npm run build
+
 # or
+
 yarn build
 \`\`\`
 
@@ -81,7 +87,9 @@ Deploy the application to Vercel:
 
 \`\`\`bash
 npm run deploy
+
 # or
+
 yarn deploy
 \`\`\`
 
