@@ -1,5 +1,5 @@
-import Link from "next/link"
-import { Film, Github } from "lucide-react"
+import Link from "next/link";
+import { Film, Github } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -12,12 +12,15 @@ export default function Footer() {
           </div>
 
           <div className="text-sm text-muted-foreground">
-            <p>This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+            <p>
+              This product uses the TMDB API but is not endorsed or certified by
+              TMDB.
+            </p>
           </div>
 
           <div className="flex items-center gap-4">
             <Link
-              href="https://github.com/yourusername/palxi-movie-database"
+              href="https://github.com/amilakelum/palxi-movie-database.git"
               target="_blank"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
@@ -28,5 +31,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
