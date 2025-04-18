@@ -12,10 +12,7 @@ export default function Footer() {
           </div>
 
           <div className="text-sm text-muted-foreground">
-            <p>
-              This product uses the TMDB API but is not endorsed or certified by
-              TMDB.
-            </p>
+            <p>Explore movies and TV shows</p>
           </div>
 
           <div className="flex items-center gap-4">
